@@ -14,6 +14,7 @@ muffinCost = muffinQuestion * 4
 coffeeCost = coffeeQuestion * 5
 teaCost = teaQuestion * 3
 bagelCost = bagelQuestion * 5
+# Calculates the 6% tax added on
 tax = (muffinCost + coffeeCost + teaCost + bagelCost)*.06
 # This prints the totals like a receipt at an actual coffee shop
 print("***************************************")
@@ -23,5 +24,6 @@ print(teaQuestion, "tea at $3 each: $", teaCost)
 print(bagelQuestion, "bagel at $5 each: $", bagelCost)
 print("6% tax: ", tax)
 print("---------")
+# Total cost of all items
 print("Total: $" , muffinCost + coffeeCost + teaCost + bagelCost + tax)
 print("***************************************")
