@@ -27,3 +27,4 @@ print("---------")
 # Total cost of all items
 print("Total: $" , muffinCost + coffeeCost + teaCost + bagelCost + tax)
 print("***************************************")
+print("Thank you for visiting my coffee shop, please come again in the future")
