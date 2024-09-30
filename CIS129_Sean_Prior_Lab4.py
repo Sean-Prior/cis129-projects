@@ -6,7 +6,7 @@
     they use a % of sales increase to give employees a small bonus to their pay.'''
 # The main function
 def main():
-# declare local variables
+# Declares the local variables
     monthlySales = getSales()
     salesIncrease = getIncrease()
     storeAmount = calcStoreBonus(monthlySales)
