@@ -2,7 +2,7 @@
 # This is the coffee shop lab
 # Asks the user how many muffins and coffees they want, then gives them the total.
 print("***************************************")
-print("My Coffee and Muffin Shop")
+print("My Coffee Shop")
 # This creates the integers and required inputs from the user for the coffee shop
 coffeeQuestion = int(input("Number of coffees bought?\n"))
 muffinQuestion = int(input("Number of muffins bought?\n"))
@@ -27,4 +27,4 @@ print("---------")
 # Total cost of all items
 print("Total: $" , muffinCost + coffeeCost + teaCost + bagelCost + tax)
 print("***************************************")
-print("Thank you for visiting my coffee shop, please come again in the future")
+print("Thank you for visiting my coffee shop, please come again in the future!")
