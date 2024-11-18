@@ -20,7 +20,6 @@ def writeToPlainText(): # gets plain grades from the user
                     grades.write(f'{value}\n') # writes the input grade in grades.txt file
             except ValueError: # checks if it's a number
                 print('That\'s not a valid value, try again')
-            
 writeToPlainText()
 
 # 9.2
@@ -41,7 +40,7 @@ def readingFromPlainText(): # pulls grades stored in grades.txt
         print(f'There is a total of {count} grades')
         print(f'Each grade is {eaGrade}')
         print(f'All grades added up is {totalGrade}')
-        print(f'The average for the student is {average:.2f}%')
+        print(f'The average for the student is {average:.2f}%\n')
     except ZeroDivisionError: # checks if no data was entered
         print('No data was entered\n')
 readingFromPlainText()
